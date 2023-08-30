@@ -1,0 +1,68 @@
+{
+    "diamonds": [
+        {
+            "shape": "Round",
+            "color": "D",
+            "clarity": "VS1",
+            "cut": "Excellent",
+            "weight": "1.53",
+            "price": "2000"
+        },
+        {
+            "shape": "Round",
+            "color": "E",
+            "clarity": "SI1",
+            "cut": "Excellent",
+            "weight": "2.23",
+            "price": "2500"
+        },
+        {
+            "shape": "Oval",
+            "color": "F",
+            "clarity": "VS2",
+            "cut": "Excellent",
+            "weight": "1.89",
+            "price": "1800"
+        },
+        {
+            "shape": "Oval",
+            "color": "E",
+            "clarity": "VS1",
+            "cut": "Excellent",
+            "weight": "1.65",
+            "price": "1700"
+        },
+        {
+            "shape": "Radiant",
+            "color": "F",
+            "clarity": "VS2",
+            "cut": "Excellent",
+            "weight": "2.02",
+            "price": "2200"
+        },
+        {
+            "shape": "Radiant",
+            "color": "F",
+            "clarity": "SI1",
+            "cut": "Excellent",
+            "weight": "1.89",
+            "price": "2100"
+        },
+        {
+            "shape": "Emerald",
+            "color": "D",
+            "clarity": "VS2",
+            "cut": "Excellent",
+            "weight": "2.10",
+            "price": "2150"
+        },
+        {
+            "shape": "Emerald",
+            "color": "D",
+            "clarity": "VS2",
+            "cut": "Excellent",
+            "weight": "1.76",
+            "price": "1900"
+        }
+    ]
+}
