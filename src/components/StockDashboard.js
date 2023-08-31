@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Filter from "./Filter";
+import DenseTable from "./Table";
 
 
 function StockDashboard({allDState}) {
@@ -25,6 +26,7 @@ return (
         <hr/>
         <Filter sortBy={sortBy} setSortBy={setSortBy} filterBy={filterBy} setFilterBy={setFilterBy} />
         <hr/>
+        <DenseTable newAllDiamonds={newAllDiamonds} />
     </div>
 
 
