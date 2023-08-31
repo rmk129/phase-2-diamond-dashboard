@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { useHistory } from "react-router-dom";
 
 
 
@@ -9,6 +10,7 @@ function StockAddForm({setAllD, allD}) {
    const [cut, setCut] = useState("Excellent")
    const [weight, setWeight] = useState("")
    const [price, setPrice] = useState("")
+   const history = useHistory();
 
   function handleWeightChange(e){
     setWeight(e.target.value);
@@ -59,6 +61,8 @@ function StockAddForm({setAllD, allD}) {
     .then(res => res.json())
     .then(data => addDiamond(data))
     console.log(allD)
+    history.push("/dashboard")
+    alert("Your Diamond has been added!")
 
   }
 

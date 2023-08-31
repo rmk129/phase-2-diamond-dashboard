@@ -16,8 +16,8 @@ function StockDashboard({allDState}) {
         }
      });
      
-     const newAllDiamonds = [...sortedDiamonds].filter((diamond)=> 
-            filterBy === "All" ? diamond : diamond.shape === filterBy)
+     const newAllDiamonds = sortedDiamonds.filter((diamond)=> 
+            filterBy === "All" ? true : diamond.shape === filterBy)
   console.log(newAllDiamonds)
 
 return (

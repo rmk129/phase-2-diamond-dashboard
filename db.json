@@ -71,6 +71,33 @@
       "cut": "Excellent",
       "weight": "1.76",
       "price": "1900"
+    },
+    {
+      "shape": "Radiant",
+      "color": "E",
+      "clarity": "VS2",
+      "cut": "Very Good",
+      "weight": "2.5",
+      "price": "3000",
+      "id": 9
+    },
+    {
+      "shape": "Emerald",
+      "color": "F",
+      "clarity": "SI1",
+      "cut": "Good",
+      "weight": "1.25",
+      "price": "1300",
+      "id": 10
+    },
+    {
+      "shape": "Oval",
+      "color": "E",
+      "clarity": "VS2",
+      "cut": "Very Good",
+      "weight": "1.01ct",
+      "price": "1000",
+      "id": 11
     }
   ]
 }
