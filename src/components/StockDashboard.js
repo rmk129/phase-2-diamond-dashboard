@@ -1,13 +1,28 @@
-import React from "react";
+import React, {useState} from "react";
+import Filter from "./Filter";
 
 
+function StockDashboard({allDState}) {
+    const [sortBy, setSortBy] = useState("Carat Weight")
+    const [filterBy, setFilterBy] = useState("All")
 
-function StockDashboard() {
-
+    const sortedDiamonds = [...allDState].sort(function(a, b) {
+        if (sortBy === "Carat Weight"){
+            return parseFloat(a.weight) - parseFloat(b.weight);
+        }
+        else {
+          return parseFloat(a.price) - parseFloat(b.price);
+        }
+     });
+     console.log(sortedDiamonds)
+     const newAllDiamonds = [...sortedDiamonds].filter((diamond)=> 
+            filterBy === "All" ? diamond : diamond.shape === filterBy)
+  
 
 return (
     <div>
         <p>StockDashboard</p>
+        <Filter sortBy={sortBy} setSortBy={setSortBy} filterBy={filterBy} setFilterBy={setFilterBy} />
     </div>
 
 

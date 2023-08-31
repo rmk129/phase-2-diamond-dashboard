@@ -51,8 +51,8 @@ function StockAddForm({setAllD, allD}) {
 
     const configObj = {
         method: 'POST', 
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({formData})
+        headers: { 'Content-Type': 'application/json'},
+        body: JSON.stringify(formData)
     }
 
     fetch('http://localhost:3000/diamonds', configObj)
@@ -65,7 +65,7 @@ function StockAddForm({setAllD, allD}) {
 return (   
    <div>
         <form onSubmit={handleSubmit} >
-            <label>Add Diamonds to Stock</label>
+            <h1>Add Diamonds to Stock</h1>
             <hr/>
             <label>Shape
                 <select onChange={handleShapeChange} >

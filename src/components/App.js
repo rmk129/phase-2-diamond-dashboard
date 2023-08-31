@@ -25,7 +25,7 @@ function App() {
               <StockAddForm allD={allDiamonds} setAllD={setAllDiamonds} />
           </Route>
           <Route path="/dashboard">
-              <StockDashboard/>
+              <StockDashboard allDState={allDiamonds}/>
           </Route>
           <Route exact path="/">
               <Home/>
