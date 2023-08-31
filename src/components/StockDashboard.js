@@ -21,8 +21,10 @@ function StockDashboard({allDState}) {
 
 return (
     <div>
-        <p>StockDashboard</p>
+        <h1>StockDashboard</h1>
+        <hr/>
         <Filter sortBy={sortBy} setSortBy={setSortBy} filterBy={filterBy} setFilterBy={setFilterBy} />
+        <hr/>
     </div>
 
 

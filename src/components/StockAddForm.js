@@ -5,7 +5,7 @@ import React, {useState} from "react";
 function StockAddForm({setAllD, allD}) {
    const [shape, setShape] = useState("Round")
    const [color, setColor] = useState("D")
-   const [clarity, setClarity] = useState("IF")
+   const [clarity, setClarity] = useState("VS1")
    const [cut, setCut] = useState("Excellent")
    const [weight, setWeight] = useState("")
    const [price, setPrice] = useState("")
@@ -68,7 +68,7 @@ return (
             <h1>Add Diamonds to Stock</h1>
             <hr/>
             <label>Shape
-                <select onChange={handleShapeChange} >
+                <select value={shape} onChange={handleShapeChange} >
                     <option value="Round">Round</option>
                     <option value="Oval">Oval</option>
                     <option value="Radiant">Radiant</option>
@@ -77,7 +77,7 @@ return (
             </label>
             <br/>
             <label>Color
-                <select onChange={handleColorChange}>
+                <select value={color} onChange={handleColorChange}>
                     <option value="D">D</option>
                     <option value="E">E</option>
                     <option value="F">F</option>
@@ -85,7 +85,7 @@ return (
             </label>
             <br/>
             <label>Clarity
-                <select onChange={handleClarityChange}>
+                <select value={clarity} onChange={handleClarityChange}>
                     <option value="VS1">VS1</option>
                     <option value="VS2">VS2</option>
                     <option value="SI1">SI1</option>
@@ -93,7 +93,7 @@ return (
             </label>
             <br/>
             <label>Cut
-                <select onChange={handleCutChange}>
+                <select value={cut} onChange={handleCutChange}>
                     <option value="Excellent">Excellent</option>
                     <option value="Very Good">Very Good</option>
                     <option value="Good">Good</option>
