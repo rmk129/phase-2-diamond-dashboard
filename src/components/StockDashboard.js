@@ -14,10 +14,10 @@ function StockDashboard({allDState}) {
           return parseFloat(a.price) - parseFloat(b.price);
         }
      });
-     console.log(sortedDiamonds)
+     
      const newAllDiamonds = [...sortedDiamonds].filter((diamond)=> 
             filterBy === "All" ? diamond : diamond.shape === filterBy)
-  
+  console.log(newAllDiamonds)
 
 return (
     <div>

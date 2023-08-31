@@ -42,9 +42,11 @@ function Filter({sortBy, setSortBy, filterBy, setFilterBy}) {
       <label>
         <strong>Filter By Shape:</strong>
         <select value={filterBy} onChange= {handleFilterChange} >
-          <option value="Tech">Tech</option>
-          <option value="Sportswear">Sportswear</option>
-          <option value="Finance">Finance</option>
+          <option value="All">All</option>
+          <option value="Round">Round</option>
+          <option value="Oval">Oval</option>
+          <option value="Radiant">Radiant</option>
+          <option value="Emerald">Emerald</option>
         </select>
       </label>
     </div>

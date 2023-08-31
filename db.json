@@ -42,7 +42,7 @@
         },
         {
             "shape": "Radiant",
-            "color": "F",
+            "color": "D",
             "clarity": "SI1",
             "cut": "Excellent",
             "weight": "1.89",
@@ -50,7 +50,7 @@
         },
         {
             "shape": "Emerald",
-            "color": "D",
+            "color": "E",
             "clarity": "VS2",
             "cut": "Excellent",
             "weight": "2.10",
@@ -58,7 +58,7 @@
         },
         {
             "shape": "Emerald",
-            "color": "D",
+            "color": "F",
             "clarity": "VS2",
             "cut": "Excellent",
             "weight": "1.76",
